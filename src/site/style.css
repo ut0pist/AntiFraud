@@ -1,0 +1,216 @@
+.main_frame{
+    margin: 0 auto;
+    border: 1px solid #0f3af3;
+    border-radius: 10px;
+    background-color: #fdfdfd;
+    height: 50%;
+    width: 30%;
+    padding: 20px;
+    box-shadow: 3px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.form{
+    text-align: left;
+
+}
+
+.header{
+    border-bottom: 1px solid #0f3af3;
+}
+
+.input-field{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid #0f3af3;
+    outline: none;
+}
+
+.input-field:focus{
+    border: 1px solid #f30f35;
+}
+
+hr{
+   background-color: #0f3af3; 
+   height: 1px;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+
+}
+
+label{
+    padding: 20px 0px;
+}
+
+.button{
+    background-color: #0f3af3; 
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #1232bd;
+    text-align: center;
+    margin: 0 auto;
+    outline: none;
+    margin-top: 15px;
+}
+
+.button:hover{
+    background-color: #fff;
+    color: #0f3af3;
+    border: 1px solid #1232bd;
+
+}
+
+p{
+   text-align: center; 
+}
+.button_div{
+    text-align: center; 
+}
+.button1{
+    background-color: #fff;
+    color: #0f3af3;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #1232bd;
+    text-align: center;
+    margin: 5px auto;
+    outline: none;
+}
+
+
+.button1:hover{
+    background-color: #0f3af3; 
+    color: #fff;
+    border: 1px solid #1232bd;
+
+}
+
+
+.error {
+    width  : 100%;
+    padding: 0;
+   
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+   
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  input[type=tel], input[type=text]{
+    -webkit-appearance: none;
+    appearance: none;
+  
+    width: 100%;
+    border: 1px solid #333;
+    margin: 0;
+  
+    font-family: inherit;
+    font-size: 90%;
+  
+    box-sizing: border-box;
+  }
+  
+  /* This is our style for the invalid fields */
+  input:invalid{
+    border-color: #900;
+    background-color: #FDD;
+  }
+  
+  input:focus:invalid {
+    outline: none;
+  }
+  
+  /* This is the style of our error messages */
+  .error {
+    width  : 100%;
+    padding: 0;
+  
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+  
+    box-sizing: border-box;
+  }
+  
+  .error.active {
+    padding: 0.3em;
+  }
+
+  #input-field1{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid #0f3af3;
+    outline: none;
+}
+
+#body{
+
+    display: inline-block;
+}
+
+
+.bloc_left_price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+}
+.category_block li:hover {
+    background-color: #007bff;
+}
+.category_block li:hover a {
+    color: #ffffff;
+}
+.category_block li a {
+    color: #343a40;
+}
+.add_to_cart_block .price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 0;
+}
+.add_to_cart_block .price_discounted {
+    color: #343a40;
+    text-align: center;
+    text-decoration: line-through;
+    font-size: 140%;
+}
+.product_rassurance {
+    padding: 10px;
+    margin-top: 15px;
+    background: #ffffff;
+    border: 1px solid #6c757d;
+    color: #6c757d;
+}
+.product_rassurance .list-inline {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+.product_rassurance .list-inline li:hover {
+    color: #343a40;
+}
+.reviews_product .fa-star {
+    color: gold;
+}
+.pagination {
+    margin-top: 20px;
+}
+footer {
+    background: #343a40;
+    padding: 40px;
+}
+footer a {
+    color: #f8f9fa!important
+}
+

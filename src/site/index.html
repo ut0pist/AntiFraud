@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src *">
+        <title>VTB MORE 19 WEB</title>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="default-src/style.css" />
+        <script src="default-src/script.js"></script>
+    </head>
+    <body>
+        <div class="main_frame">
+            <p class="header">Введите платежные данные</p>
+            <form id="form" novalidate>
+                <label>Сумма перевода</label>
+                <input type="tel" id="input-field1" placeholder="Введите сумму перевода" maxlength="7"/>
+                <br>
+                <label>Номер карты получателя</label>
+                <input type="tel" class="input-field" placeholder="Введите номер карты получателя" maxlength="19"/>
+                <br>
+                <label>Номер карты отправителя</label>
+                <input type="tel" class="input-field" placeholder="Введите номер карты отправителя" maxlength="19"/>
+                <br>
+                <label>Валидна до</label>   
+                <input type="tel" class="input-field" placeholder="MM / YY" />
+                <br>
+                <label>CVV Код</label>
+                <input type="tel" class="input-field" placeholder="CVV" maxlength="4"/>
+                <br>
+                <label>Имя держателя карты</label>
+                <input type="text" class="input-field" placeholder="Имя держателя карты" />
+                <br>
+
+                <div class="button_div">
+                    <button type="submit" class="button" >Подтвердить перевод</button>
+                </div>
+            </form>
+
+           
+        </div>
+    </body>
+</html>

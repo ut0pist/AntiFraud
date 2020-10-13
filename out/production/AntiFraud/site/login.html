@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>VTB MORE 19 WEB</title>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+        <script src = "../js/login.js"></script>
+    </head>
+    <body>
+        <div class="main_frame">
+            <p class="header">Введите данные для входа</p>
+            <form class="form" name="auth" method="POST" action="https://localhost:8000/auth">
+                <label style="padding-right: 10px;">Логин  </label>
+                <input type="email" class="input-field" name="login" placeholder="Логин" maxlength="7"/>
+                <br>
+
+                <label>Пароль</label>
+                <input type="password" class="input-field" name="passwordHash" placeholder="Пароль" maxlength="19"/>
+                <br>
+
+                <div class="button_div">
+                    <a href="shop1.html"><button type="button" onclick=logSubmit() class="button1" >Войти</button></a>
+                </div>
+            </form>
+            <!-- надо положить будет обратно в форму, чтоб ссылка заработала -->
+            
+
+        </div>
+    </body>
+</html>
